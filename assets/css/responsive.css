@@ -1,0 +1,122 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.single-product-item {
+    height: 250px;
+    margin-bottom: 15px;
+}
+.single-product-item:nth-child(2) {
+    height: 516px;
+}    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.big-menu li {
+    font-size: 30px;
+}
+.big-menu li a {
+    padding: 30px 30px;
+}
+.single-product-item {
+    width: 31.33333%;
+}
+.single-product-item:nth-child(2), .single-product-item:nth-child(4), .single-product-item:nth-child(9) {
+    width: 64.6666%;
+}
+.promo-bg {
+    padding: 20px;
+    padding-bottom: 0;
+}
+.footer-area, .footer-area .text-right {
+    text-align: center;
+}
+.footer-menu li {
+    padding: 0 10px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.header-right, .header-left ul {
+    display: none;
+}
+.homepage-slider-wrap, .homepage-slider-wrap div {
+    height: auto;
+}
+.header-top-area {
+    position: relative;
+    background: #F2E3E0;
+}
+.header-top-area a {
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.slide-text-tablecell {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    padding: 50px 0;
+}
+.single-slide-item img {
+    left: 0;
+    margin-left: 0;
+}
+.owl-carousel .owl-item .single-slide-item img {
+    display: none;
+}
+.big-menu li {
+    float: none;
+    width: auto;
+    font-size: 40px;
+}
+.big-menu li:nth-child(2), .big-menu li:nth-child(3) {
+    width: auto;
+}
+.big-menu li:nth-child(4) {
+    padding-right: 0px;
+}
+.big-menu li a {
+    text-align: center;
+    padding: 50px;
+}
+.single-product-item, .single-product-item:nth-child(2), .single-product-item:nth-child(3), .single-product-item:nth-child(4), .single-product-item:nth-child(9) {
+    width: 100%;
+    float: none;
+}
+.promo-content {
+    padding: 20px;
+}
+.promo-bg {
+    padding-top: 10px;
+}
+.promo-tittle h2 {
+    font-size: 21px;
+}
+.promo-tittle span.year-text {
+    left: 32%;
+    font-size: 50px;
+}
+.product-pomotions .owl-dots {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+}
+.product-pomotions .owl-dots div {
+    display: inline-block;
+    margin: 5px;
+}
+.footer-area, .footer-area .text-right {
+    text-align: center;
+}
+.footer-menu li {
+    padding: 0 10px;
+}
+.email-subscribe-from input[type="submit"] {
+    margin-top: 10px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
